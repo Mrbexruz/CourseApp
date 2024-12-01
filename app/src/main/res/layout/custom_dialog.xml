@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fon_kurs"
+        android:hint="Kurs nomi"
+        android:padding="15dp"/>
+    <EditText
+        android:id="@+id/about"
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/fon_kurs"
+        android:hint="Kurs haqida"
+        android:padding="15dp"/>
+    <RelativeLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/qoshish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Qo'shish"
+            android:textColor="#FFB800"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/yopish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yopish"
+            android:textColor="@color/black"
+            android:layout_toStartOf="@id/qoshish"
+            android:layout_marginEnd="16dp"
+            android:textSize="20sp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

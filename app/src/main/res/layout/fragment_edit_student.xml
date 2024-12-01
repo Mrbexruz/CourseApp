@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.Groups.EditStudentFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:background="#FFB800">
+        <ImageView
+            android:id="@+id/chiqish"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/img"
+            android:layout_centerVertical="true"/>
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Edit student"
+            android:layout_toEndOf="@id/chiqish"
+            android:layout_centerVertical="true"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"/>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:id="@+id/familya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Lastname"
+            android:background="@drawable/fon_kurs"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:id="@+id/ismi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:background="@drawable/fon_kurs"
+            android:padding="10dp"/>
+        <EditText
+            android:layout_marginBottom="10dp"
+            android:id="@+id/phone_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Phone number"
+            android:background="@drawable/fon_kurs"
+            android:padding="10dp"/>
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fon_kurs"
+            android:padding="10dp"
+            android:text="12.12.2024"
+            app:drawableEndCompat="@drawable/calendar" />
+
+
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFB800"
+        android:text="Save"
+        android:textSize="20sp"
+        android:layout_marginEnd="10dp"
+        android:layout_gravity="end|bottom"
+        app:cornerRadius="10dp"/>
+
+</LinearLayout>

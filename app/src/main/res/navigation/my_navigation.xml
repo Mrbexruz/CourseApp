@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment"
+    android:id="@+id/my_navigation.xml">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.codialapp.fragments.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/addGroupFragment3"
+        android:name="com.example.codialapp.fragments.Groups.AddGroupFragment"
+        android:label="fragment_add_group"
+        tools:layout="@layout/fragment_add_group" />
+    <fragment
+        android:id="@+id/addStudentFragment"
+        android:name="com.example.codialapp.fragments.Groups.AddStudentFragment"
+        android:label="fragment_add_student"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/coursesFragment2"
+        android:name="com.example.codialapp.fragments.Courses.CoursesFragment"
+        android:label="fragment_courses"
+        tools:layout="@layout/fragment_courses" />
+    <fragment
+        android:id="@+id/dataFragment"
+        android:name="com.example.codialapp.fragments.Courses.DataFragment"
+        android:label="fragment_data"
+        tools:layout="@layout/fragment_data" />
+    <fragment
+        android:id="@+id/editGroupFragment2"
+        android:name="com.example.codialapp.fragments.Groups.EditGroupFragment"
+        android:label="fragment_edit_group"
+        tools:layout="@layout/fragment_edit_group" />
+    <fragment
+        android:id="@+id/editStudentFragment"
+        android:name="com.example.codialapp.fragments.Groups.EditStudentFragment"
+        android:label="fragment_edit_student"
+        tools:layout="@layout/fragment_edit_student" />
+    <fragment
+        android:id="@+id/groupAddFragment2"
+        android:name="com.example.codialapp.fragments.Groups.GroupAddFragment"
+        android:label="fragment_group_add"
+        tools:layout="@layout/fragment_group_add" />
+    <fragment
+        android:id="@+id/groupsFragment"
+        android:name="com.example.codialapp.fragments.Groups.GroupsFragment"
+        android:label="fragment_groups"
+        tools:layout="@layout/fragment_groups" />
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.example.codialapp.fragments.mentors.ListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_list" />
+    <fragment
+        android:id="@+id/studentFragment"
+        android:name="com.example.codialapp.fragments.Groups.StudentFragment"
+        android:label="fragment_student"
+        tools:layout="@layout/fragment_student" />
+    <fragment
+        android:id="@+id/mentorsFragment"
+        android:name="com.example.codialapp.fragments.mentors.MentorsFragment"
+        android:label="fragment_mentors"
+        tools:layout="@layout/fragment_mentors" />
+    <fragment
+        android:id="@+id/openedGroupFragment"
+        android:name="com.example.codialapp.fragments.Groups.OpenedGroupFragment"
+        android:label="fragment_opened_group"
+        tools:layout="@layout/fragment_opened_group" />
+    <fragment
+        android:id="@+id/openingGroupFragment"
+        android:name="com.example.codialapp.fragments.Groups.OpeningGroupFragment"
+        android:label="fragment_opening_group"
+        tools:layout="@layout/fragment_opening_group" />
+</navigation>
